@@ -1,0 +1,254 @@
+[
+  {
+    "question": "Who are the intended audience members for the documents?",
+    "answer": "engineer + executive",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "documentation"
+  },
+  {
+    "question": "Why are the documents only accessible to two specific groups?",
+    "answer": "engineering documents",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "documentation"
+  },
+  {
+    "question": "What type of documents are being placed in the specified location?",
+    "answer": "engineering documents",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "documentation"
+  },
+  {
+    "question": "What is the role of 'engineer' within the specified audience?",
+    "answer": "engineer",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "documentation"
+  },
+  {
+    "question": "What is the role of 'executive' within the specified audience?",
+    "answer": "executive",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "documentation"
+  },
+  {
+    "question": "Are there any other groups with access to these documents?",
+    "answer": "No",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "documentation"
+  },
+  {
+    "question": "How many specific groups are mentioned as having access to these documents?",
+    "answer": "2",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "documentation"
+  },
+  {
+    "question": "What is the relationship between the documents and the engineers?",
+    "answer": "the documents are for engineers",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "documentation"
+  },
+  {
+    "question": "What is the relationship between the documents and the executives?",
+    "answer": "the documents are for executives",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "documentation"
+  },
+  {
+    "question": "What is being specified as being placed in the location?",
+    "answer": "documents",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "documentation"
+  },
+  {
+    "question": "What is the location for placing the documents?",
+    "answer": "here",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "documentation"
+  },
+  {
+    "question": "Where is FinSolve Technologies headquartered?",
+    "answer": "Bangalore, India",
+    "context": "FinSolve Technologies is a leading FinTech company headquartered in Bangalore, India, with operations across North America, Europe, and Asia-Pacific.",
+    "collection": "engineering"
+  },
+  {
+    "question": "When was FinSolve Technologies founded?",
+    "answer": "2016",
+    "context": "Founded in 2016, FinSolve provides innovative financial solutions, including digital banking, payment processing, wealth management, and enterprise financial analytics, serving over 2 million individual users and 10,000+ businesses globally.",
+    "collection": "engineering"
+  },
+  {
+    "question": "What is the approximate number of employees at FinSolve Technologies?",
+    "answer": "500",
+    "context": "The company currently employs approximately 500 people across all departments, with the Engineering team established in 2018.",
+    "collection": "engineering"
+  },
+  {
+    "question": "What year was the Engineering team established at FinSolve Technologies?",
+    "answer": "2018",
+    "context": "The company currently employs approximately 500 people across all departments, with the Engineering team established in 2018.",
+    "collection": "engineering"
+  },
+  {
+    "question": "What is the purpose of the engineering document outlined in this document?",
+    "answer": "To outline the technical architecture, development processes, and operational guidelines for FinSolve's product ecosystem.",
+    "context": "This engineering document outlines the technical architecture, development processes, and operational guidelines for FinSolve's product ecosystem.",
+    "collection": "engineering"
+  },
+  {
+    "question": "What is the scope of the engineering document?",
+    "answer": "System architecture and infrastructure, Software development lifecycle (SDLC), Technology stack, Security and compliance frameworks, Testing and quality assurance methodologies, Deployment and DevOps practices, Monitoring and maintenance protocols, Future technology roadmap",
+    "context": "This document covers: * System architecture and infrastructure * Software development lifecycle (SDLC) * Technology stack * Security and compliance frameworks * Testing and quality assurance methodologies * Deployment and DevOps practices * Monitoring and maintenance protocols * Future technology roadmap",
+    "collection": "engineering"
+  },
+  {
+    "question": "What type of system architecture does FinSolve's system use?",
+    "answer": "Microservices-based, cloud-native system",
+    "context": "FinSolve's architecture is a microservices-based, cloud-native system designed for scalability, resilience, and security.",
+    "collection": "engineering"
+  },
+  {
+    "question": "What technology stack does FinSolve's system use?",
+    "answer": "PostgreSQL, MongoDB, Redis, Amazon S3, AWS, Kubernetes, Cloudflare",
+    "context": "Data Layer \u251c\u2500\u2500 PostgreSQL (Transactional Data) \u251c\u2500\u2500 MongoDB (User Profiles, Metadata) \u251c\u2500\u2500 Redis (Caching, Session Management) \u2514\u2500\u2500 Amazon S3 (Documents, Backups) Infrastructure \u251c\u2500\u2500 AWS (EC2, ECS, Lambda) \u251c\u2500\u2500 Kubernetes (Orchestration) \u2514\u2500\u2500 Cloudflare (CDN, DDoS Protection)",
+    "collection": "engineering"
+  },
+  {
+    "question": "What is the authentication mechanism used by FinSolve's Authentication Service?",
+    "answer": "OAuth 2.0, JWT",
+    "context": "Authentication Service: Manages user identity, authentication (OAuth 2.0), and authorization using JWT tokens.",
+    "collection": "engineering"
+  },
+  {
+    "question": "What is the version control system used for this document?",
+    "answer": "Document Control table",
+    "context": "| Version | Date | Author | Changes |\n|---------|------|--------|---------|\n| 1.0 | 2025-05-01 | Engineering Team | Initial version |\n| 1.1 | 2025-05-14 | Tech Architecture Council | Updated diagrams and monitoring section |\n| 1.2 | 2026-03-24 | Engineering Leadership | Added sections 11-13: Team Structure, API Documentation, Performance Metrics; Updated company founding year to 2016; Aligned employee count to 500; Added engineering team establishment date 2018 |",
+    "collection": "engineering"
+  },
+  {
+    "question": "What category of documents should be placed in the specified location?",
+    "answer": "Engineering documents",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "organization"
+  },
+  {
+    "question": "Who are the specified users that should have access to the documents in the location?",
+    "answer": "Engineer and Executive",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "security"
+  },
+  {
+    "question": "What type of documents should be excluded from the specified location?",
+    "answer": "Marketing documents",
+    "context": "None (implied by the text)",
+    "collection": "organization"
+  },
+  {
+    "question": "What permission level is required to access the documents in the specified location?",
+    "answer": "Engineer and Executive",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "security"
+  },
+  {
+    "question": "Who are the specified users that should be restricted from accessing the documents in the location?",
+    "answer": "Marketing personnel",
+    "context": "None (implied by the text)",
+    "collection": "security"
+  },
+  {
+    "question": "What should be placed in the specified location?",
+    "answer": "Engineering documents",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "organization"
+  },
+  {
+    "question": "What is the specified location used for?",
+    "answer": "Storage of engineering documents",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "organization"
+  },
+  {
+    "question": "Are there any documents that should not be placed in the specified location?",
+    "answer": "Yes, marketing documents",
+    "context": "None (implied by the text)",
+    "collection": "organization"
+  },
+  {
+    "question": "What level of access is required to access the documents in the specified location?",
+    "answer": "Engineer and Executive level access",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "security"
+  },
+  {
+    "question": "Who should not place documents in the specified location?",
+    "answer": "Marketing personnel",
+    "context": "None (implied by the text)",
+    "collection": "organization"
+  },
+  {
+    "question": "What should be placed in the specified area?",
+    "answer": "engineering documents",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "general"
+  },
+  {
+    "question": "Who has access to the specified documents?",
+    "answer": "engineer and executive",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "general"
+  },
+  {
+    "question": "What type of documents should be stored in this area?",
+    "answer": "engineering documents",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "general"
+  },
+  {
+    "question": "Are there any restrictions on who can access this area?",
+    "answer": "yes",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "general"
+  },
+  {
+    "question": "Who should be aware of the documents in this area?",
+    "answer": "engineer and executive",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "general"
+  },
+  {
+    "question": "Where should engineering documents be placed according to the instructions?",
+    "answer": "here",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "general"
+  },
+  {
+    "question": "What is the purpose of specifying engineer and executive access?",
+    "answer": "to restrict access",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "general"
+  },
+  {
+    "question": "Who should not access this area according to the instruction?",
+    "answer": "not specified",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "general"
+  },
+  {
+    "question": "How many people have access to the specified documents?",
+    "answer": "two",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "general"
+  },
+  {
+    "question": "Are there any additional notes for storing documents in this area?",
+    "answer": "no",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "general"
+  },
+  {
+    "question": "What should be included in the instructions on document placement?",
+    "answer": "engineer and executive",
+    "context": "# Place engineering documents here (engineer + executive only)",
+    "collection": "general"
+  }
+]

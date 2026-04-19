@@ -1,0 +1,46 @@
+# Dependencies
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Node (frontend)
+node_modules/
+.next/
+out/
+
+# Qdrant data (local)
+qdrant_storage/
+
+# Evaluation results (keep .gitkeep)
+evaluation/results/*.json
+!evaluation/results/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Plan (optional — remove this line if you want plans committed)
+# plan/

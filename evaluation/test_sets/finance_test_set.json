@@ -1,0 +1,28 @@
+{
+  "test_cases": [
+    {
+      "question": "What was the total revenue in Q1 2026?",
+      "ground_truth": "The total revenue in Q1 2026 was $45.2 million, representing a 12% increase year-over-year.",
+      "expected_collection": "finance",
+      "expected_route": "finance_route",
+      "test_roles": {
+        "finance_analyst": "should_answer",
+        "engineer": "should_deny_or_fallback",
+        "executive": "should_answer",
+        "employee": "should_deny_or_fallback"
+      },
+      "metadata": { "difficulty": "easy", "requires_table": false }
+    },
+    {
+      "question": "Break down the operating costs by department for the last quarter.",
+      "ground_truth": "Operating costs by department: Engineering $12M, Marketing $8M, HR $3M, Sales $10M, totaling $33M.",
+      "expected_collection": "finance",
+      "expected_route": "finance_route",
+      "test_roles": {
+        "finance_analyst": "should_answer",
+        "executive": "should_answer"
+      },
+      "metadata": { "difficulty": "medium", "requires_table": true }
+    }
+  ]
+}

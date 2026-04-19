@@ -1,0 +1,64 @@
+{
+  "rbac_tests": [
+    {
+      "question": "What was Q1 revenue?",
+      "role": "finance_analyst",
+      "expected_behavior": "should_return_finance_data",
+      "expected_collections_searched": ["finance"]
+    },
+    {
+      "question": "What was Q1 revenue?",
+      "role": "engineer",
+      "expected_behavior": "should_not_return_finance_data",
+      "expected_collections_searched": ["general", "engineering"]
+    },
+    {
+      "question": "What was Q1 revenue?",
+      "role": "executive",
+      "expected_behavior": "should_return_finance_data",
+      "expected_collections_searched": ["finance"]
+    },
+    {
+      "question": "Explain the microservices architecture",
+      "role": "engineer",
+      "expected_behavior": "should_return_engineering_data",
+      "expected_collections_searched": ["engineering"]
+    },
+    {
+      "question": "Explain the microservices architecture",
+      "role": "finance_analyst",
+      "expected_behavior": "should_not_return_engineering_data",
+      "expected_collections_searched": ["general", "finance"]
+    },
+    {
+      "question": "What is the leave policy?",
+      "role": "hr_representative",
+      "expected_behavior": "should_return_hr_data",
+      "expected_collections_searched": ["hr"]
+    },
+    {
+      "question": "What is the leave policy?",
+      "role": "employee",
+      "expected_behavior": "should_not_return_hr_data",
+      "expected_collections_searched": ["general"]
+    },
+    {
+      "question": "What were the Q1 marketing campaign results?",
+      "role": "marketing_specialist",
+      "expected_behavior": "should_return_marketing_data",
+      "expected_collections_searched": ["marketing"]
+    },
+    {
+      "question": "What were the Q1 marketing campaign results?",
+      "role": "engineer",
+      "expected_behavior": "should_not_return_marketing_data",
+      "expected_collections_searched": ["general", "engineering"]
+    },
+    {
+      "question": "How is the company doing overall?",
+      "role": "employee",
+      "expected_behavior": "should_return_general_data",
+      "expected_collections_searched": ["general"]
+    }
+  ]
+}
